@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{1C0532BB-2DE7-4548-AA78-43C5D7226FBE}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DotByDotProj/Controllers/HomeController.cs">
+    <Files>
+      <File FileName="DotByDotProj/Controllers/HomeController.cs" Line="6" Column="45" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DotByDotProj" expanded="True">
+            <Node name="DotByDotProj" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="HomeController.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.DotByDotProj PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
