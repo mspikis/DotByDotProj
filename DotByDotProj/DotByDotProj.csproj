@@ -4,7 +4,10 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+<<<<<<< HEAD
   <ItemGroup>
     <Folder Include="Views\Home\" />
   </ItemGroup>
+=======
+>>>>>>> master
 </Project>

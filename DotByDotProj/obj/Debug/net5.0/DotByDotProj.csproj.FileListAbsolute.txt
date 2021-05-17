@@ -61,6 +61,11 @@
 /Users/michail/Google Drive/JOBS/DotByDot/DotByDotProj/DotByDotProj/obj/Debug/net5.0/DotByDotProj.TagHelpers.input.cache
 /Users/michail/Google Drive/JOBS/DotByDot/DotByDotProj/DotByDotProj/obj/Debug/net5.0/DotByDotProj.TagHelpers.output.cache
 /Users/michail/Google Drive/JOBS/DotByDot/DotByDotProj/DotByDotProj/obj/Debug/net5.0/DotByDotProj.RazorCoreGenerate.cache
+<<<<<<< HEAD
+=======
+/Users/michail/Google Drive/JOBS/DotByDot/DotByDotProj/DotByDotProj/obj/Debug/net5.0/Razor/Views/Home/Index.cshtml.g.cs
+/Users/michail/Google Drive/JOBS/DotByDot/DotByDotProj/DotByDotProj/obj/Debug/net5.0/Razor/Views/Home/Privacy.cshtml.g.cs
+>>>>>>> master
 /Users/michail/Google Drive/JOBS/DotByDot/DotByDotProj/DotByDotProj/obj/Debug/net5.0/Razor/Views/Shared/Error.cshtml.g.cs
 /Users/michail/Google Drive/JOBS/DotByDot/DotByDotProj/DotByDotProj/obj/Debug/net5.0/Razor/Views/Shared/_Layout.cshtml.g.cs
 /Users/michail/Google Drive/JOBS/DotByDot/DotByDotProj/DotByDotProj/obj/Debug/net5.0/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs
@@ -74,5 +79,8 @@
 /Users/michail/Google Drive/JOBS/DotByDot/DotByDotProj/DotByDotProj/obj/Debug/net5.0/DotByDotProj.pdb
 /Users/michail/Google Drive/JOBS/DotByDot/DotByDotProj/DotByDotProj/obj/Debug/net5.0/DotByDotProj.genruntimeconfig.cache
 /Users/michail/Google Drive/JOBS/DotByDot/DotByDotProj/DotByDotProj/obj/Debug/net5.0/DotByDotProj.csproj.CopyComplete
+<<<<<<< HEAD
 /Users/michail/Google Drive/JOBS/DotByDot/DotByDotProj/DotByDotProj/obj/Debug/net5.0/Razor/Views/Home/Index.cshtml.g.cs
 /Users/michail/Google Drive/JOBS/DotByDot/DotByDotProj/DotByDotProj/obj/Debug/net5.0/Razor/Views/Home/Welcome.cshtml.g.cs
+=======
+>>>>>>> master
