@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/michail/Google Drive/JOBS/DotByDot/DotByDotProj/DotByDotProj/DotByDotProj.csproj": {}
+    "/Users/michail/Documents/Projects/DotByDotProj/DotByDotProj/DotByDotProj.csproj": {}
   },
   "projects": {
-    "/Users/michail/Google Drive/JOBS/DotByDot/DotByDotProj/DotByDotProj/DotByDotProj.csproj": {
+    "/Users/michail/Documents/Projects/DotByDotProj/DotByDotProj/DotByDotProj.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/michail/Google Drive/JOBS/DotByDot/DotByDotProj/DotByDotProj/DotByDotProj.csproj",
+        "projectUniqueName": "/Users/michail/Documents/Projects/DotByDotProj/DotByDotProj/DotByDotProj.csproj",
         "projectName": "DotByDotProj",
-        "projectPath": "/Users/michail/Google Drive/JOBS/DotByDot/DotByDotProj/DotByDotProj/DotByDotProj.csproj",
+        "projectPath": "/Users/michail/Documents/Projects/DotByDotProj/DotByDotProj/DotByDotProj.csproj",
         "packagesPath": "/Users/michail/.nuget/packages/",
-        "outputPath": "/Users/michail/Google Drive/JOBS/DotByDot/DotByDotProj/DotByDotProj/obj/",
+        "outputPath": "/Users/michail/Documents/Projects/DotByDotProj/DotByDotProj/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/michail/.config/NuGet/NuGet.Config"
+          "/Users/michail/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -37,6 +37,26 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
