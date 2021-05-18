@@ -15,7 +15,7 @@ namespace DotByDotProj
 {
     public class Startup
     {
-        ppublic Startup(IConfiguration configuration, IWebHostEnvironment env)
+        public Startup(IConfiguration configuration, IWebHostEnvironment env)
         {
             Environment = env;
             Configuration = configuration;

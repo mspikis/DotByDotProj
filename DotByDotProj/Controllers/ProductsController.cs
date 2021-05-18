@@ -20,9 +20,31 @@ namespace DotByDotProj.Controllers
         }
 
         // GET: Products
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string productType)
         {
-            return View(await _context.Product.ToListAsync());
+            // Use LINQ to get list of genres.
+            IQueryable<string> genreQuery = from m in _context.Product
+                                            orderby m.Type
+                                            select m.Type;
+
+            var products = from m in _context.Product
+                           select m;
+
+
+
+            if (!string.IsNullOrEmpty(productType))
+            {
+                products = products.Where(x => x.Type == productType);
+            }
+
+
+            var productTypeVM = new ProductTypeViewModel
+            {
+                Types = new SelectList(await genreQuery.Distinct().ToListAsync()),
+                Products = await products.ToListAsync()
+            };
+
+            return View(productTypeVM);
         }
 
         // GET: Products/Details/5
@@ -54,7 +76,7 @@ namespace DotByDotProj.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Title,CreationDate,Price")] Product product)
+        public async Task<IActionResult> Create([Bind("Id,Title,Type,CreationDate,Price")] Product product)
         {
             if (ModelState.IsValid)
             {
